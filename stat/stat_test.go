@@ -1,10 +1,10 @@
 package stat
 
 import (
-	"github.com/jandre/procfs/util"
 	"testing"
-)
 
+	"github.com/nathanfrench/procfs/util"
+)
 
 func TestParsingStat(t *testing.T) {
 	// set the GLOBAL_SYSTEM_START
@@ -20,7 +20,7 @@ func TestParsingStat(t *testing.T) {
 	}
 
 	// if s.Starttime.seconds() != 1388604586 {
-		// t.Fatal("Start time is wrong, expected: 1388604586", s.Starttime.EpochSeconds)
+	// t.Fatal("Start time is wrong, expected: 1388604586", s.Starttime.EpochSeconds)
 	// }
 
 }
