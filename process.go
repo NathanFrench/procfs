@@ -29,10 +29,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/jandre/procfs/limits"
-	"github.com/jandre/procfs/stat"
-	"github.com/jandre/procfs/statm"
-	"github.com/jandre/procfs/status"
+	"github.com/nathanfrench/procfs/limits"
+	"github.com/nathanfrench/procfs/stat"
+	"github.com/nathanfrench/procfs/statm"
+	"github.com/nathanfrench/procfs/status"
 )
 
 //
